@@ -45,7 +45,7 @@ function! NERDTreeYankCurrentNode(node)
 endfunction
 
 " 自定义快捷键
-map <F2> :NERDTreeFocus<CR>
+map tt :NERDTreeToggle<CR>
 " 水平或者垂直窗口打开
 let g:NERDTreeMapOpenSplit = "w"
 let g:NERDTreeMapOpenVSplit = "W"

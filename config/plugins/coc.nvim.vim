@@ -92,7 +92,7 @@ function! s:show_documentation()
     endif
 endfunction
 " 函数文档
-nnoremap <silent> K :call <SID>show_documentation()<CR>
+nnoremap <silent> <leader>K :call <SID>show_documentation()<CR>
 " 函数参数的文档
 nnoremap <silent> <space>k :call CocActionAsync('showSignatureHelp')<CR>
 " au CursorHoldI * sil call CocActionAsync('showSignatureHelp')

@@ -13,7 +13,12 @@ LoadScript layers.vim
 call plug#end()
 
 " 载入快捷键配置
-LoadScript keymap.vim
+" LoadScript keymap.vim
+LoadScript keymap-soulx.vim
+
+" 载入环境
+LoadScript env.vim
+
 " 载入主题配置
 LoadScript theme/theme.vim
 LoadScript theme/statusline.vim
